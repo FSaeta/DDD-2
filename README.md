@@ -44,7 +44,7 @@ Players | Armazena dados de nível técnico, histórico de partidas e reputaçã
 
 
 ## 4. Crie um diagrama representando o Context Map:
-![Context Map](/DDD-2/context-map.png)
+![Context Map](/context-map.png)
 
 ## 5. Justifique suas escolhas:
 - **Agendamento de Partidas -> Players** (Shared Kernel): O agendamento de partidas possui um dono relacionado, e o dono da partida e seus integrantes conseguem visualizar a mesma em "Minhas Partidas".
