@@ -11,12 +11,12 @@
 ### **2️⃣ Identificação dos Subdomínios**
 | **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
 |-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
-| Gestão de Consultas         | Gerencia o agendamento, consulta por vídeo e emissão de atestados e receitas.                   | Core Domain      |
-| Cadastro de Pacientes       | Gerencia o cadastro e informações pessoais e médicas dos pacientes.                             | Supporting       |
-| Gerenciamento de Médicos    | Cadastro e validação de médicos, incluindo suas licenças e horários disponíveis.                | Supporting       |
-| Pagamentos                  | Processa pagamentos e gerencia os repasses para médicos e clínicas.                            | Generic          |
-| Comunicação por Vídeo       | Realiza chamadas de vídeo durante as consultas.                                                | Generic          |
-| Autenticação de Usuários    | Gerencia login, permissões e segurança de acesso.                                              | Generic          |
+| Criação de Partidas         | Gerencia a sugestão e seleção de locais próximos para a prática do esporte selecionado.        | Core Domain      |
+| Gerenciador de Players da Partida  | Gerencia os players inscritos na partida, definindo sempre uma Modalidade para aplicar as regras. | Core Domain       |
+| Gerenciamento de Locais    | Cadastro e validação de Locais de esportes, pelo gerente do local.   | Supporting       |
+| Pagamentos    | Processa pagamentos e status de pagamento dos players inscritos nas partidas.  | Generic   |
+| Feed de Partidas  | Mostra partidas dos esportes preferídos dos usuários, nas proximidades do usuário ou localização definida. | Generic |
+| Autenticação de Usuários    | Gerencia login, permissões e segurança de acesso. | Generic |
 
 ---
 
